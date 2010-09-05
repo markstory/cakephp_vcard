@@ -1,4 +1,4 @@
-vCard Helper plugin
+## vCard Helper plugin
 
 A simple plugin providing a helper for generating vCards.  Clone into a @vcard@ directory in your pluginPaths.
 
@@ -7,3 +7,8 @@ To use add
 	var $helpers = array('Vcard.Vcf');
 
 For additional usage instructions and how to enable @.vcf@ extensions for your applications see "my tutorial":http://mark-story.com/posts/view/generating-vcards-with-cakephp-using-extensions
+
+### Contributors
+
+- Mark Story
+- José Gonzalez
