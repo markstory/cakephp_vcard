@@ -1,6 +1,30 @@
-## vCard Helper plugin
+h1. vCard Helper plugin
 
 A simple plugin providing a helper for generating vCards.  Clone into a @vcard@ directory in your pluginPaths.
+
+h2. Installation
+
+_[Manual]_
+
+# Download this: http://github.com/markstory/cakephp_vcard/zipball/master
+# Unzip that download.
+# Copy the resulting folder to app/plugins
+# Rename the folder you just copied to @vcard@
+
+_[GIT Submodule]_
+
+In your app directory type:
+<pre><code>git submodule add git://github.com/markstory/cakephp_vcard.git plugins/vcard
+git submodule init
+git submodule update
+</code></pre>
+
+_[GIT Clone]_
+
+In your plugin directory type
+<pre><code>git clone git://github.com/markstory/cakephp_vcard.git plugins/vcard</code></pre>
+
+h2. Usage
 
 To use add
 
@@ -8,7 +32,7 @@ To use add
 
 For additional usage instructions and how to enable @.vcf@ extensions for your applications see "my tutorial":http://mark-story.com/posts/view/generating-vcards-with-cakephp-using-extensions
 
-### Contributors
+h2. Contributors
 
 - Mark Story
 - José Gonzalez
