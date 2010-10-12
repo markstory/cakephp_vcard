@@ -22,7 +22,7 @@ git submodule update
 _[GIT Clone]_
 
 In your plugin directory type
-<pre><code>git clone git://github.com/markstory/cakephp_vcard.git plugins/vcard</code></pre>
+<pre><code>git clone git://github.com/markstory/cakephp_vcard.git vcard</code></pre>
 
 h2. Usage
 
