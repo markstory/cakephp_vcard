@@ -1,0 +1,6 @@
+linters:
+  phpcs:
+    standard: PSR2
+ignore:
+  files:
+    - 'vendor/*'
